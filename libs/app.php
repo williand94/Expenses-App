@@ -15,7 +15,7 @@ class App
             $fileController = "controllers/loginController.php";
             require_once($fileController);
             $controller = new Login();
-            $controller->loadModel('loginModel');
+            $controller->loadModel('login');
             $controller->render();
             return false;
         }
@@ -29,7 +29,7 @@ class App
             require_once($fileController);
 
             $controller = new $url[0] . "Controller";
-            $controller->loadModel($url[0] . "Model");
+            $controller->loadModel($url[0]);
 
             //We're gonna check if controller brings a method
             if (isset($url[1])) {

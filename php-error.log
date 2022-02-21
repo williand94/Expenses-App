@@ -5,3 +5,37 @@
 [19-Feb-2022 05:14:29 Europe/Berlin] Ingresando al login
 [19-Feb-2022 05:17:30 Europe/Berlin] Beging Web App
 [19-Feb-2022 05:17:30 Europe/Berlin] App::construct-> no hay controlador especificado
+[20-Feb-2022 18:46:50 Europe/Berlin] Beging Web App
+[20-Feb-2022 18:46:51 Europe/Berlin] App::construct-> Ther is not controller especificed!
+[20-Feb-2022 18:46:51 Europe/Berlin] Login::construct -> Loging Begin
+[20-Feb-2022 18:46:51 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Login::loadModel() in /opt/lampp/htdocs/expenses-app/libs/app.php:18
+Stack trace:
+#0 /opt/lampp/htdocs/expenses-app/index.php(15): App->__construct()
+#1 {main}
+  thrown in /opt/lampp/htdocs/expenses-app/libs/app.php on line 18
+[20-Feb-2022 23:08:01 Europe/Berlin] Beging Web App
+[20-Feb-2022 23:08:01 Europe/Berlin] App::construct-> Ther is not controller especificed!
+[20-Feb-2022 23:08:01 Europe/Berlin] Login::construct -> Loging Begin
+[20-Feb-2022 23:08:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Login::loadModel() in /opt/lampp/htdocs/expenses-app/libs/app.php:18
+Stack trace:
+#0 /opt/lampp/htdocs/expenses-app/index.php(22): App->__construct()
+#1 {main}
+  thrown in /opt/lampp/htdocs/expenses-app/libs/app.php on line 18
+[20-Feb-2022 23:14:35 Europe/Berlin] Beging Web App
+[20-Feb-2022 23:14:35 Europe/Berlin] App::construct-> Ther is not controller especificed!
+[20-Feb-2022 23:14:35 Europe/Berlin] Login::construct -> Loging Begin
+[20-Feb-2022 23:20:09 Europe/Berlin] Beging Web App
+[20-Feb-2022 23:20:09 Europe/Berlin] App::construct-> Ther is not controller especificed!
+[20-Feb-2022 23:20:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'View' not found in /opt/lampp/htdocs/expenses-app/libs/controller.php:7
+Stack trace:
+#0 /opt/lampp/htdocs/expenses-app/controllers/loginController.php(7): Controller->__construct()
+#1 /opt/lampp/htdocs/expenses-app/libs/app.php(17): Login->__construct()
+#2 /opt/lampp/htdocs/expenses-app/index.php(22): App->__construct()
+#3 {main}
+  thrown in /opt/lampp/htdocs/expenses-app/libs/controller.php on line 7
+[20-Feb-2022 23:20:14 Europe/Berlin] Beging Web App
+[20-Feb-2022 23:20:14 Europe/Berlin] App::construct-> Ther is not controller especificed!
+[20-Feb-2022 23:20:14 Europe/Berlin] Login::construct -> Loging Begin
+[21-Feb-2022 04:20:03 Europe/Berlin] Beging Web App
+[21-Feb-2022 04:20:03 Europe/Berlin] App::construct-> Ther is not controller especificed!
+[21-Feb-2022 04:20:03 Europe/Berlin] Login::construct -> Loging Begin

@@ -10,7 +10,14 @@
     ini_set("error_log","/opt/lampp/htdocs/expenses-app/php-error.log");
     error_log("Beging Web App");
 
+    require_once("libs/database.php");
+    require_once("libs/controller.php");
+    require_once("libs/model.php");
+    require_once("libs/view.php");
     require_once("libs/app.php");
+
+    require_once("config/config.php");
+
     
     $app = new App();
     
