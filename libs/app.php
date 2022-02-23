@@ -1,7 +1,8 @@
 <?php
 
-class App
-{
+require_once("controllers/errors.php");
+
+class App{
 
     function __construct()
     {
@@ -11,8 +12,8 @@ class App
 
         //If the url  in its 0 position is empty, the user will be redirected to login
         if (empty($url[0])) {
-            error_log("App::construct-> Ther is not controller especificed!");
-            $fileController = "controllers/loginController.php";
+            error_log("App::construct-> There is not controller especificed!");
+            $fileController = "controllers/login.php";
             require_once($fileController);
             $controller = new Login();
             $controller->loadModel('login');
@@ -22,13 +23,12 @@ class App
 
         // If the url  in its 0 position isn't empty,it then brings a controller.
         //we're gonna require that controller
-        $fileController = "controllers/" . $url[0] . "Controller.php";
+        $fileController = "controllers/" . $url[0] . ".php";
 
         //We're gonna validate if file exists.
         if (file_exists($fileController)) {
             require_once($fileController);
-
-            $controller = new $url[0] . "Controller";
+            $controller = new $url[0];
             $controller->loadModel($url[0]);
 
             //We're gonna check if controller brings a method
@@ -48,14 +48,25 @@ class App
                     } else {
                         //If the Method doesn't has params, it'll be call the method normally
                         $controller->{$url[1]}();
-
                     }
+                } else {
+                    //If method not exist
+                    $controller = new Errors();
+                    $controller->render();
+
+                    error_log("App::construct-> Errors render!");
+                    
                 }
             } else {
                 //If controller  isn't brings a method,we'll upload a default method
                 $controller->render();
             }
         } else {
+            $controller = new Errors();
+            $controller->render();
+
+            error_log("App::construct-> Errors render!2");
+
         }
     }
 }

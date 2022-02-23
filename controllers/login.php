@@ -10,6 +10,8 @@
 
         function render()
         {
+            error_log('Login::construct -> Loging Render');
+
             $this->view->render("login/index");
         }
     }

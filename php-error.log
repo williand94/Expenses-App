@@ -39,3 +39,75 @@ Stack trace:
 [21-Feb-2022 04:20:03 Europe/Berlin] Beging Web App
 [21-Feb-2022 04:20:03 Europe/Berlin] App::construct-> Ther is not controller especificed!
 [21-Feb-2022 04:20:03 Europe/Berlin] Login::construct -> Loging Begin
+[22-Feb-2022 15:39:08 Europe/Berlin] Beging Web App
+[22-Feb-2022 15:39:08 Europe/Berlin] App::construct-> There is not controller especificed!
+[22-Feb-2022 15:39:08 Europe/Berlin] Login::construct -> Loging Begin
+[22-Feb-2022 21:06:04 Europe/Berlin] Beging Web App
+[22-Feb-2022 21:06:04 Europe/Berlin] App::construct-> There is not controller especificed!
+[22-Feb-2022 21:06:04 Europe/Berlin] Login::construct -> Loging Begin
+[22-Feb-2022 22:12:52 Europe/Berlin] Beging Web App
+[22-Feb-2022 22:12:58 Europe/Berlin] App::construct-> There is not controller especificed!
+[22-Feb-2022 22:12:58 Europe/Berlin] Login::construct -> Loging Begin
+[22-Feb-2022 22:13:13 Europe/Berlin] Beging Web App
+[22-Feb-2022 22:13:17 Europe/Berlin] App::construct-> There is not controller especificed!
+[22-Feb-2022 22:13:17 Europe/Berlin] Login::construct -> Loging Begin
+[22-Feb-2022 22:42:10 Europe/Berlin] Beging Web App
+[22-Feb-2022 22:42:10 Europe/Berlin] App::construct-> There is not controller especificed!
+[22-Feb-2022 22:42:10 Europe/Berlin] Login::construct -> Loging Begin
+[23-Feb-2022 01:47:40 Europe/Berlin] Beging Web App
+[23-Feb-2022 01:47:40 Europe/Berlin] App::construct-> There is not controller especificed!
+[23-Feb-2022 01:47:40 Europe/Berlin] Login::construct -> Loging Begin
+[23-Feb-2022 01:47:40 Europe/Berlin] Login::construct -> Loging Render
+[23-Feb-2022 02:00:43 Europe/Berlin] Beging Web App
+[23-Feb-2022 02:00:43 Europe/Berlin] App::construct-> There is not controller especificed!
+[23-Feb-2022 02:00:43 Europe/Berlin] Login::construct -> Loging Begin
+[23-Feb-2022 02:00:43 Europe/Berlin] Login::construct -> Loging Render
+[23-Feb-2022 02:01:03 Europe/Berlin] Beging Web App
+[23-Feb-2022 02:01:03 Europe/Berlin] App::construct-> There is not controller especificed!
+[23-Feb-2022 02:01:03 Europe/Berlin] Login::construct -> Loging Begin
+[23-Feb-2022 02:01:03 Europe/Berlin] Login::construct -> Loging Render
+[23-Feb-2022 02:01:06 Europe/Berlin] Beging Web App
+[23-Feb-2022 02:01:06 Europe/Berlin] App::construct-> There is not controller especificed!
+[23-Feb-2022 02:01:06 Europe/Berlin] Login::construct -> Loging Begin
+[23-Feb-2022 02:01:06 Europe/Berlin] Login::construct -> Loging Render
+[23-Feb-2022 02:01:52 Europe/Berlin] Beging Web App
+[23-Feb-2022 02:01:52 Europe/Berlin] App::construct-> There is not controller especificed!
+[23-Feb-2022 02:01:52 Europe/Berlin] Login::construct -> Loging Begin
+[23-Feb-2022 02:01:52 Europe/Berlin] Login::construct -> Loging Render
+[23-Feb-2022 02:02:56 Europe/Berlin] Beging Web App
+[23-Feb-2022 02:02:56 Europe/Berlin] App::construct-> There is not controller especificed!
+[23-Feb-2022 02:02:56 Europe/Berlin] Login::construct -> Loging Begin
+[23-Feb-2022 02:02:56 Europe/Berlin] Login::construct -> Loging Render
+[23-Feb-2022 02:08:07 Europe/Berlin] Beging Web App
+[23-Feb-2022 02:08:07 Europe/Berlin] App::construct-> There is not controller especificed!
+[23-Feb-2022 02:08:07 Europe/Berlin] Login::construct -> Loging Begin
+[23-Feb-2022 02:08:07 Europe/Berlin] Login::construct -> Loging Render
+[23-Feb-2022 02:23:49 Europe/Berlin] Beging Web App
+[23-Feb-2022 02:23:49 Europe/Berlin] App::construct-> There is not controller especificed!
+[23-Feb-2022 02:23:49 Europe/Berlin] Login::construct -> Loging Begin
+[23-Feb-2022 02:23:49 Europe/Berlin] Login::construct -> Loging Render
+[23-Feb-2022 03:09:10 Europe/Berlin] Beging Web App
+[23-Feb-2022 03:09:10 Europe/Berlin] Errors::construct -> Begin Errors
+[23-Feb-2022 03:09:10 Europe/Berlin] Errors::construct -> Begin Errors
+[23-Feb-2022 03:09:10 Europe/Berlin] App::construct-> Errors render!2
+[23-Feb-2022 03:48:07 Europe/Berlin] Beging Web App
+[23-Feb-2022 03:48:07 Europe/Berlin] PHP Warning:  require_once(controllers/errors.php): failed to open stream: No such file or directory in /opt/lampp/htdocs/expenses-app/libs/app.php on line 3
+[23-Feb-2022 03:48:07 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'controllers/errors.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/expenses-app/libs/app.php on line 3
+[23-Feb-2022 03:50:31 Europe/Berlin] Beging Web App
+[23-Feb-2022 03:50:31 Europe/Berlin] Errors::construct -> Begin Errors
+[23-Feb-2022 03:50:31 Europe/Berlin] App::construct-> Errors render!2
+[23-Feb-2022 03:50:45 Europe/Berlin] Beging Web App
+[23-Feb-2022 03:50:45 Europe/Berlin] Errors::construct -> Begin Errors
+[23-Feb-2022 03:50:45 Europe/Berlin] Errors::construct -> Begin Errors
+[23-Feb-2022 03:50:45 Europe/Berlin] App::construct-> Errors render!2
+[23-Feb-2022 04:02:26 Europe/Berlin] Beging Web App
+[23-Feb-2022 04:02:26 Europe/Berlin] Errors::construct -> Begin Errors
+[23-Feb-2022 04:02:26 Europe/Berlin] Errors::construct -> Begin Errors
+[23-Feb-2022 04:19:49 Europe/Berlin] Beging Web App
+[23-Feb-2022 04:19:49 Europe/Berlin] App::construct-> There is not controller especificed!
+[23-Feb-2022 04:19:49 Europe/Berlin] Login::construct -> Loging Begin
+[23-Feb-2022 04:19:49 Europe/Berlin] Login::construct -> Loging Render
+[23-Feb-2022 04:19:56 Europe/Berlin] Beging Web App
+[23-Feb-2022 04:19:56 Europe/Berlin] Errors::construct -> Begin Errors
+[23-Feb-2022 04:19:56 Europe/Berlin] Errors::construct -> Begin Errors
+[23-Feb-2022 04:19:56 Europe/Berlin] App::construct-> Errors render!2
