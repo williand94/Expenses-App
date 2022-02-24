@@ -8,5 +8,6 @@
 </head>
 <body>
     <h1>Hi from Login!</h1>
+    <p><?php $this->showMessages()?></p>
 </body>
 </html>

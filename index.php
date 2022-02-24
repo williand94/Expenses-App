@@ -11,6 +11,8 @@
     error_log("Beging Web App");
 
     require_once("libs/database.php");
+    require_once("classes/error_messages.php");
+    require_once("classes/success_messages.php");
     require_once("libs/controller.php");
     require_once("libs/model.php");
     require_once("libs/view.php");

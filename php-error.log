@@ -111,3 +111,55 @@ Stack trace:
 [23-Feb-2022 04:19:56 Europe/Berlin] Errors::construct -> Begin Errors
 [23-Feb-2022 04:19:56 Europe/Berlin] Errors::construct -> Begin Errors
 [23-Feb-2022 04:19:56 Europe/Berlin] App::construct-> Errors render!2
+[24-Feb-2022 14:30:00 Europe/Berlin] Beging Web App
+[24-Feb-2022 14:30:00 Europe/Berlin] App::construct-> There is not controller especificed!
+[24-Feb-2022 14:30:00 Europe/Berlin] Login::construct -> Loging Begin
+[24-Feb-2022 14:30:00 Europe/Berlin] Login::construct -> Loging Render
+[24-Feb-2022 19:51:29 Europe/Berlin] Beging Web App
+[24-Feb-2022 19:51:29 Europe/Berlin] App::construct-> There is not controller especificed!
+[24-Feb-2022 19:51:29 Europe/Berlin] Login::construct -> Loging Begin
+[24-Feb-2022 19:51:29 Europe/Berlin] Login::construct -> Loging Render
+[24-Feb-2022 19:51:37 Europe/Berlin] Beging Web App
+[24-Feb-2022 19:51:37 Europe/Berlin] App::construct-> There is not controller especificed!
+[24-Feb-2022 19:51:37 Europe/Berlin] Login::construct -> Loging Begin
+[24-Feb-2022 19:51:37 Europe/Berlin] Login::construct -> Loging Render
+[24-Feb-2022 19:52:16 Europe/Berlin] Beging Web App
+[24-Feb-2022 19:52:16 Europe/Berlin] App::construct-> There is not controller especificed!
+[24-Feb-2022 19:52:16 Europe/Berlin] Login::construct -> Loging Begin
+[24-Feb-2022 19:52:16 Europe/Berlin] Login::construct -> Loging Render
+[24-Feb-2022 19:54:15 Europe/Berlin] Beging Web App
+[24-Feb-2022 19:54:15 Europe/Berlin] App::construct-> There is not controller especificed!
+[24-Feb-2022 19:54:15 Europe/Berlin] Login::construct -> Loging Begin
+[24-Feb-2022 19:54:15 Europe/Berlin] Login::construct -> Loging Render
+[24-Feb-2022 19:55:05 Europe/Berlin] Beging Web App
+[24-Feb-2022 19:55:05 Europe/Berlin] App::construct-> There is not controller especificed!
+[24-Feb-2022 19:55:05 Europe/Berlin] Login::construct -> Loging Begin
+[24-Feb-2022 19:55:05 Europe/Berlin] Login::construct -> Loging Render
+[24-Feb-2022 19:55:14 Europe/Berlin] Beging Web App
+[24-Feb-2022 19:55:14 Europe/Berlin] App::construct-> There is not controller especificed!
+[24-Feb-2022 19:55:14 Europe/Berlin] Login::construct -> Loging Begin
+[24-Feb-2022 19:55:14 Europe/Berlin] Login::construct -> Loging Render
+[24-Feb-2022 19:58:57 Europe/Berlin] Beging Web App
+[24-Feb-2022 19:58:57 Europe/Berlin] App::construct-> There is not controller especificed!
+[24-Feb-2022 19:58:57 Europe/Berlin] Login::construct -> Loging Begin
+[24-Feb-2022 19:58:57 Europe/Berlin] Login::construct -> Loging Render
+[24-Feb-2022 19:59:04 Europe/Berlin] Beging Web App
+[24-Feb-2022 19:59:04 Europe/Berlin] App::construct-> There is not controller especificed!
+[24-Feb-2022 19:59:04 Europe/Berlin] Login::construct -> Loging Begin
+[24-Feb-2022 19:59:04 Europe/Berlin] Login::construct -> Loging Render
+[24-Feb-2022 19:59:42 Europe/Berlin] Beging Web App
+[24-Feb-2022 19:59:42 Europe/Berlin] App::construct-> There is not controller especificed!
+[24-Feb-2022 19:59:42 Europe/Berlin] Login::construct -> Loging Begin
+[24-Feb-2022 19:59:42 Europe/Berlin] Login::construct -> Loging Render
+[24-Feb-2022 19:59:50 Europe/Berlin] Beging Web App
+[24-Feb-2022 19:59:50 Europe/Berlin] App::construct-> There is not controller especificed!
+[24-Feb-2022 19:59:50 Europe/Berlin] Login::construct -> Loging Begin
+[24-Feb-2022 19:59:50 Europe/Berlin] Login::construct -> Loging Render
+[24-Feb-2022 19:59:59 Europe/Berlin] Beging Web App
+[24-Feb-2022 19:59:59 Europe/Berlin] App::construct-> There is not controller especificed!
+[24-Feb-2022 19:59:59 Europe/Berlin] Login::construct -> Loging Begin
+[24-Feb-2022 19:59:59 Europe/Berlin] Login::construct -> Loging Render
+[24-Feb-2022 20:00:32 Europe/Berlin] Beging Web App
+[24-Feb-2022 20:00:32 Europe/Berlin] App::construct-> There is not controller especificed!
+[24-Feb-2022 20:00:32 Europe/Berlin] Login::construct -> Loging Begin
+[24-Feb-2022 20:00:32 Europe/Berlin] Login::construct -> Loging Render

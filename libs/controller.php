@@ -49,7 +49,7 @@ class Controller
         return $_POST[$name];
     }
 
-    function redirect($url, $mesages){
+    function redirect($route, $mesages){
         $data = [];
         $params = '';
 
@@ -62,6 +62,8 @@ class Controller
         if ($params != '') {
             $params = '?'. $params;
         }
+
+        header('Location: ' . constant('URL') . $route . $params);
 
     }
 }
