@@ -10,7 +10,8 @@ class View
     function render($name, $data = [])
     {
         $this->d = $data;
-
+        
+        //Handler errors's messages
         $this->handleMessages();
 
         require("views/" . $name . ".php");

@@ -4,7 +4,8 @@
 
         //ERROR_CONTROLLER_METHOD_ACTION
         const PRUEBA = "3f5a72b2cc74c42af0b8268866f43d02";
-        
+
+        //this array will content all messagess error
         private $errorList = [];
 
         function __construct()
@@ -15,6 +16,7 @@
             ]; 
         }
 
+        //Method to return the error position wihtin  error array
         public function get($hash){
             return $this->errorList[$hash];
         }
