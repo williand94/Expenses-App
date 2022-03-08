@@ -22,7 +22,7 @@
 
         }
     
-    
+        //Method to save an user.
         public function save(){
             try{
                 $query = $this->prepare('INSERT INTO users(username,password,role,budget,photo,name)VALUES(:username,:password,:role,:budget,:photo,:name)');

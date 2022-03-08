@@ -179,3 +179,303 @@ Stack trace:
 [26-Feb-2022 19:49:22 Europe/Berlin] App::construct-> There is not controller especificed!
 [26-Feb-2022 19:49:22 Europe/Berlin] Login::construct -> Loging Begin
 [26-Feb-2022 19:49:22 Europe/Berlin] Login::construct -> Loging Render
+[04-Mar-2022 20:09:33 Europe/Berlin] Beging Web App
+[04-Mar-2022 20:09:34 Europe/Berlin] App::construct-> There is not controller especificed!
+[04-Mar-2022 20:09:34 Europe/Berlin] Login::construct -> Loging Begin
+[04-Mar-2022 20:09:34 Europe/Berlin] Login::construct -> Loging Render
+[04-Mar-2022 20:09:46 Europe/Berlin] Beging Web App
+[04-Mar-2022 20:09:46 Europe/Berlin] App::construct-> There is not controller especificed!
+[04-Mar-2022 20:09:46 Europe/Berlin] Login::construct -> Loging Begin
+[04-Mar-2022 20:09:46 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 16:14:55 Europe/Berlin] Beging Web App
+[08-Mar-2022 16:14:55 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 16:14:55 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 16:14:55 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 16:53:54 Europe/Berlin] Beging Web App
+[08-Mar-2022 16:53:54 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 16:53:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'SessionController' not found in /opt/lampp/htdocs/expenses-app/controllers/login.php:3
+Stack trace:
+#0 /opt/lampp/htdocs/expenses-app/libs/app.php(17): require_once()
+#1 /opt/lampp/htdocs/expenses-app/index.php(24): App->__construct()
+#2 {main}
+  thrown in /opt/lampp/htdocs/expenses-app/controllers/login.php on line 3
+[08-Mar-2022 16:56:54 Europe/Berlin] Beging Web App
+[08-Mar-2022 16:56:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Controller' not found in /opt/lampp/htdocs/expenses-app/classes/sessionController.php:3
+Stack trace:
+#0 /opt/lampp/htdocs/expenses-app/index.php(14): require_once()
+#1 {main}
+  thrown in /opt/lampp/htdocs/expenses-app/classes/sessionController.php on line 3
+[08-Mar-2022 16:59:00 Europe/Berlin] Beging Web App
+[08-Mar-2022 16:59:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Controller' not found in /opt/lampp/htdocs/expenses-app/classes/sessionController.php:3
+Stack trace:
+#0 /opt/lampp/htdocs/expenses-app/index.php(14): require_once()
+#1 {main}
+  thrown in /opt/lampp/htdocs/expenses-app/classes/sessionController.php on line 3
+[08-Mar-2022 16:59:19 Europe/Berlin] Beging Web App
+[08-Mar-2022 16:59:19 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 16:59:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Session' not found in /opt/lampp/htdocs/expenses-app/classes/sessionController.php:22
+Stack trace:
+#0 /opt/lampp/htdocs/expenses-app/classes/sessionController.php(17): SessionController->init()
+#1 /opt/lampp/htdocs/expenses-app/controllers/login.php(7): SessionController->__construct()
+#2 /opt/lampp/htdocs/expenses-app/libs/app.php(18): Login->__construct()
+#3 /opt/lampp/htdocs/expenses-app/index.php(25): App->__construct()
+#4 {main}
+  thrown in /opt/lampp/htdocs/expenses-app/classes/sessionController.php on line 22
+[08-Mar-2022 17:00:18 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:00:18 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:00:18 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:00:18 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:00:18 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:00:18 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:42 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:42 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:42 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:42 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:42 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:42 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:42 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:42 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:42 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:42 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:42 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:42 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:42 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:42 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:42 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:42 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:42 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:42 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:43 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:43 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:43 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:43 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:43 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:43 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:43 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:43 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:43 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:43 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:43 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:43 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:43 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:43 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:43 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:43 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:43 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:43 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:43 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:43 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:43 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:43 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:43 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:43 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:43 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:43 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:43 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:43 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:43 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:43 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:43 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:43 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:43 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:43 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:43 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:43 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:43 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:49 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:49 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:49 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:49 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:49 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:49 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:49 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:49 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:49 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:49 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:49 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:49 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:49 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:49 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:49 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:49 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:49 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:49 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:49 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:49 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:49 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:49 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:49 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:49 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:49 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:49 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:49 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:49 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:49 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:49 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:49 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:49 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:49 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:49 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:49 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:49 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:49 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:49 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:49 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:49 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Render
+[08-Mar-2022 17:01:49 Europe/Berlin] Beging Web App
+[08-Mar-2022 17:01:49 Europe/Berlin] App::construct-> There is not controller especificed!
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[08-Mar-2022 17:01:49 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage ->
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Begin
+[08-Mar-2022 17:01:49 Europe/Berlin] Login::construct -> Loging Render
